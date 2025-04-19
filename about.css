@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+ .st-section{
+    font-family: 'Segoe UI', sans-serif;
+    /* background: #eef6fd; */
+    color: #333;
+    /* background-color: #9DCCFF; */
+ }
+    
+  .navbar {
+    /* width: 100vh; */
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 2px solid #dff1ff;
+  }
+  .nav{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #5B5B5B;
+    padding-left: 7rem;
+  }
+  .logo_img{
+    color: #5B5B5B;
+    background-color: #5B5B5B;
+    
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #5B5B5B;
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .user-profile span {
+    margin-right: 0.5rem;
+  }
+  
+  .avatar {
+    width: 32px;
+    height: 32px;
+    background: url('https://via.placeholder.com/32') center/cover;
+    border-radius: 50%;
+  }
+
+.image-container {
+ /* border: 2px solid black;   */
+height: 600px;
+width: 100%;  
+/* background-color: red;  */
+background-image: url(./Group\ 236.png);
+  }
+
+  /* mid-page */
+  .mid_page{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    margin-top: 5rem;
+    /* border-bottom: 1px solid black; */
+  }
+
+  .head_mid_page{
+    color: #2F327D;
+    font-weight: 600px;
+    font-size: 34px;
+    line-height: 180%;
+    letter-spacing: 0%;
+  }
+
+  .para_head_mid_page{
+    color: #696984;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 180%;
+  }
+
+  .mid_buttons{
+    /* height: 50px;
+    width: 100px; */
+    margin-left: -33rem;
+    margin-top: 2rem;
+    border-radius: 36px;
+    background-color: #49BBBD1A;
+  }
+
+  .tags{
+    margin-left: -31rem;
+    margin-top: 2rem;
+    /* background-color: #49BBBD1A; */
+  }
+
+  .tag {
+    padding: 8px 14px;
+    background-color: #49BBBD1A;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #4a4a4a;
+  }
+  
+  .follow-btn {
+    padding: 8px 20px;
+    background-color: #ffffff;
+    border: 1px solid #d1e3f8;
+    color: #00aaff;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 68rem;
+    margin-top: 6.5rem;
+  }
+  
+  .follow-btn:hover {
+    background-color: #e6f7ff;
+  }
+
+  /* footer */
+
+  .main_foot{
+    border: 2px solid black;
+    width: 100%;
+    height: 400px;
+    background-color: #252641;
+    color: white;
+    margin-top: -18rem;
+    
+  }
+  
+  .foot_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+  }
+  .logo1{
+    padding-right: 6rem;
+    border-right: 1px solid #626381;
+  }
+  .foot_2{
+    color: #B2B3CF;
+   padding-left: 40rem;
+   padding-top: 2rem;
+  }
+  .Enter_name{
+    height: 30px;
+  
+    background-color: #252641;
+    color: #83839A;
+    border: 2px solid #83839A;
+    padding-right: 8rem;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    
+  }
+  .login_foot{
+    background-color: #49BBBD;
+    color: #FFFFFF;
+    border-radius: 25px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+  }
+  .foot_button{
+    align-items: center;
+    justify-content: center;
+    padding-left: 40rem;
+    padding-top: 2rem;
+  }
+  .foot_3{
+    align-items: center;
+   padding-left: 40rem;
+   padding-top: 2rem;
+   color: #626381;
+   font-size: 23px;
+   
+  }
+  .foot_3_1{
+    /* border-left: 2px solid black; */
+    height: 100px;
+    width: 50px;
+  }
+  .foot_3_2{
+    border-right: 2px solid #626381;
+    height: 100px;
+    width: 50px;
+  }
+  .foot_3_3{
+    border-right: 2px solid #626381;
+    height: 100px;
+    width: 50px;
+  
+  }
+  .foot_4{
+    gap: 1rem;
+  }
+  
+  
+ 
