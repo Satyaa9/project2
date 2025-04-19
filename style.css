@@ -131,6 +131,7 @@
   .features {
     padding: 4rem 0;
     text-align: center;
+    /* position: relative; */
   }
   
   .features h2 span {
@@ -150,10 +151,11 @@
     padding: 2rem;
     border-radius: 15px;
     width: 300px;
+    position: relative;
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
   }
   .card_img1{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -164,11 +166,14 @@
     /* position: absolute; */
     justify-content: center;
     align-items: center;
+    position: absolute;
+    bottom: 14rem;
+    left: 8rem;
     
   }
   
   .card_img2{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -178,10 +183,13 @@
     background-color: #00CBB8;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    bottom: 14rem;
+    left: 8rem;
     /* position: relative; */
   }
   .card_img3{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -191,6 +199,9 @@
     background-color: #29B9E7;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    bottom: 14rem;
+    left: 8rem;
   
   }
 
