@@ -283,3 +283,119 @@
   .foot_4{
     gap: 1rem;
   }
+
+  /* resposive website to see on mobile also */
+
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+      padding: 0 1rem;
+    }
+  
+    .nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+  
+    .auth-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+  
+    .hero-content {
+      flex-direction: column;
+      text-align: center;
+      gap: 2rem;
+    }
+  
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-image img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 0;
+    }
+  
+    .stats-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+  
+    .features {
+      padding: 2rem 1rem;
+    }
+  
+    .feature-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 90%;
+    }
+  
+    .card_img1,
+    .card_img2,
+    .card_img3 {
+      position: relative;
+      bottom: auto;
+      left: auto;
+      margin: 0 auto 1rem;
+    }
+  
+    .main_foot {
+      height: auto;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+  
+    .foot_1 {
+      flex-direction: column;
+      padding-top: 1rem;
+    }
+  
+    .logo1 {
+      border-right: none;
+      padding-right: 0;
+      margin-bottom: 1rem;
+    }
+  
+    .foot_2,
+    .foot_button,
+    .foot_3 {
+      padding-left: 0;
+      padding-top: 1rem;
+    }
+  
+    .Enter_name {
+      width: 100%;
+      padding-right: 1rem;
+    }
+  
+    .login_foot {
+      width: 100%;
+    }
+  
+    .foot_3 {
+      font-size: 16px;
+    }
+  
+    .foot_3_1,
+    .foot_3_2,
+    .foot_3_3 {
+      border: none;
+      height: auto;
+      width: auto;
+    }
+  }
+  
